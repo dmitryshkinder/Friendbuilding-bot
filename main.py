@@ -4,7 +4,7 @@ from random import shuffle
 from telebot import types
 import random
 
-bot = telebot.TeleBot('842578968:AAEqFwF8GFsIO3rf9N1_8xdPvAm5KqbZap4')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
